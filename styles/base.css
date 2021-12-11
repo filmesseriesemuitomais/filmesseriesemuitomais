@@ -1,0 +1,177 @@
+
+html {
+    overflow: auto;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    display: block;
+    background-color: #f1f3f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Amazon Ember;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gradient-a {
+    height: 164px;
+    background: rgb(254,254,254);
+    background: -moz-linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(241,243,244,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(241,243,244,1) 100%);
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(241,243,244,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fefefe",endColorstr="#f1f3f4",GradientType=1);
+}
+
+.gradient-b {
+    height: 164px;
+    background: rgb(248,211,203);
+    background: -moz-linear-gradient(180deg, rgba(248,211,203,1) 0%, rgba(241,243,244,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(248,211,203,1) 0%, rgba(241,243,244,1) 100%);
+    background: linear-gradient(180deg, rgba(248,211,203,1) 0%, rgba(241,243,244,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f8d3cb",endColorstr="#f1f3f4",GradientType=1);
+}
+
+.gradient-c {
+    height: 164px;
+    background: rgb(245,228,198);
+    background: -moz-linear-gradient(180deg, rgba(245,228,198,1) 0%, rgba(241,243,244,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(245,228,198,1) 0%, rgba(241,243,244,1) 100%);
+    background: linear-gradient(180deg, rgba(245,228,198,1) 0%, rgba(241,243,244,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5e4c6",endColorstr="#f1f3f4",GradientType=1);
+    
+}
+
+.gradient-d {
+    height: 164px;
+    background: rgb(68,1,254);
+    background: -moz-linear-gradient(180deg, rgba(68,1,254,1) 0%, rgba(241,243,244,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(68,1,254,1) 0%, rgba(241,243,244,1) 100%);
+    background: linear-gradient(180deg, rgba(68,1,254,1) 0%, rgba(241,243,244,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4401fe",endColorstr="#f1f3f4",GradientType=1);
+   
+}
+
+.gradient-e {
+    height: 164px;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(241,243,244,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(241,243,244,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(241,243,244,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#f1f3f4",GradientType=1);
+   
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 1;
+  width: auto;
+  margin-top: -22px;
+  padding: 200px 30px 200px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    text-align: unset;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1000s;
+  animation-name: fade;
+  animation-duration: 1000s;
+  text-align: center;
+}
+
+.wrapper-recomendations {
+    margin-bottom: 64px;
+    margin-top: 64px;
+    max-height: 110px!important;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}

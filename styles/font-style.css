@@ -1,0 +1,96 @@
+@font-face{font-family:'Amazon Ember';font-weight:200;src:url(https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/e0LnMbFWJC-TMQz.woff) format("woff")}@font-face{font-family:'Amazon Ember';font-weight:200;font-style:italic;src:url(https://m.media-amazon.com/images/S/sash/ozb5-CLHQWI6Soc.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/twzZHebXjCHBb6v.woff) format("woff")}@font-face{font-family:'Amazon Ember';src:url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/kfKKBuoqcD$AUKL.woff) format("woff")}@font-face{font-family:'Amazon Ember';font-style:italic;src:url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/JJsp0ZvgpfwzJM6.woff) format("woff")}@font-face{font-family:'Amazon Ember';font-weight:500;src:url(https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/XIvhNCZAsrT80Wz.woff) format("woff")}@font-face{font-family:'Amazon Ember';font-weight:500;font-style:italic;src:url(https://m.media-amazon.com/images/S/sash/KwhNPG8Jz-Vz2X7.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/YAEPfuhs1l-argd.woff) format("woff")}@font-face{font-family:'Amazon Ember';font-weight:700;src:url(https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/mzVbGSgvdBfRLX9.woff) format("woff")}@font-face{font-family:'Amazon Ember';font-style:italic;font-weight:700;src:url(https://m.media-amazon.com/images/S/sash/2SazJx$EeTHfhMN.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/CjbL$jCCegyfqZ7.woff) format("woff")}.a-ember body{font-family:"Amazon Ember",Arial,sans-serif;}.a-ember .a-text-quote{font-family:"Amazon Ember",Arial,sans-serif}
+.sm-sm {
+    font-size: 11px;
+}
+.sm {
+    font-size: 13px;
+}
+.md {
+    font-size: 15px;
+}
+.md-md {
+    font-size: 18px;
+}
+.lg {
+    font-size: 20px;
+}
+.grossa {
+    font-weight: 700;
+}
+.fina {
+    font-weight: 100;
+}
+h1 {
+    text-rendering: optimizeLegibility;
+    clear: both;
+    line-height: 20px;
+    color: #FFF;
+    font-family: inherit;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+h2 {
+    text-rendering: optimizeLegibility;
+    color: #CCCCCC;
+}
+h3 {
+    text-rendering: optimizeLegibility;
+}
+h4 {
+    text-rendering: optimizeLegibility;
+    font-size: 15px;
+    color: #565959;
+}
+h5 {
+    color: #B12704;
+    font-size: 18px;
+}
+h9 {
+    text-decoration: none;
+    color: #007185;
+    font-size: 13px;
+}
+h11 {
+    text-rendering: optimizeLegibility;
+    text-rendering: auto!important;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #c45500!important;
+    font-size: 18px;
+}
+h18 {
+    color: #007185;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h21 {
+    color: #C45500;
+    font-size: 11px;
+    font-weight: 800;
+}
+span{
+    text-rendering: optimizeLegibility;
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+}
+a {
+    hover:
+}
+
+.informar {
+    color: #565959!important;
+    font-size: 15px!important;
+    line-height: 40px!important;
+    font-weight: 600;
+    transform: translateX(10px);
+    margin-left: 18px;
+}
+@media (min-width: 992px) { 
+    h3 {
+        font-weight: 500;
+    }
+}
